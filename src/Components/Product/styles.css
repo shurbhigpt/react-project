@@ -1,0 +1,66 @@
+.form-div {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dbddbd;
+  border-radius: 10px;
+  width: 50%;
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-evenly;
+  margin-top: 15vh;
+}
+.input {
+  width: 100%;
+  border: 1px solid #dbddbd;
+  font-weight: 300 !important;
+  padding: 5px;
+  margin: 2px 0;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-shadow: none;
+  margin-top: 15px;
+}
+.button {
+  margin-top: 8px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  color: white;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: dodgerblue;
+  cursor: pointer;
+}
+.error-msg {
+  width: 70;
+  font-family: "Open Sans Condensed", sans-serif;
+  background-color: #fafafa;
+  color: red;
+  margin-left: 7px;
+  font-size: small;
+}
+
+.loader {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardHeader h4 {
+  margin: 0px;
+}
+.headerButtons {
+  display: flex;
+}
+.headerButtons div {
+  margin: 0px 5px;
+  width: auto;
+}
